@@ -1,2 +1,14 @@
-# Web-Developemnt
-This repository, ‘Web-Development’, is a comprehensive collection of code snippets, projects, and learnings from various web development tutorials. It serves as a personal knowledge base and a showcase of my journey in mastering web development.
+# 🚀 Web Development Learning Journey 🚀
+
+## 📝 Description 📝
+Welcome to my '<b>Web-Development</b>' repository! This is where I store all the cool code snippets, projects, and key learnings from my web development tutorials. Consider this as a sneak peek into my journey of becoming a web development maestro. 🎓💻
+
+## 📚 Table of Contents 📚
+1. 🏗️ HTML
+2. 🎨 CSS
+3. ⚙️ JavaScript
+4. 🧩 Frameworks (React, Angular, Vue.js)
+5. ⛅ Backend (Node.js, Express.js)
+6. 💾 Databases (SQL, MongoDB)
+
+Enjoy exploring my repository! 😊👍
