@@ -1,7 +1,7 @@
 This module will help you to develop a strong conceptual understanding of the Git technology and how it is used in software development projects to manage team files. You will install Git, create a local repository, create a commit, create a remote repository and push commits to a remote repository.
-Learning Objectives
-Outline the Git principles.
-Use a GitHub repository.
-Describe the steps in a standard GitHub workflow.
-Create branches and merge different branches and sources.
-Describe how code goes from local development to version control and then to live production.
+    #Learning Objectives
+        1. Outline the Git principles.
+        2. Use a GitHub repository.
+        3. Describe the steps in a standard GitHub workflow.
+        4. Create branches and merge different branches and sources.
+        5. Describe how code goes from local development to version control and then to live production.
