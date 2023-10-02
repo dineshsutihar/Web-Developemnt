@@ -1,0 +1,20 @@
+.hdr-str{
+    font-weight: bold;
+    text-align: center;
+}
+.info-box{
+    border: 1px dotted blue;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+#special-paragraph{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+nav>ul>li>a{
+    display: inline-block;
+    padding: 4px;
+    border: 0.3px solid black;
+    background-color: lightblue;
+    text-decoration: none;
+}
