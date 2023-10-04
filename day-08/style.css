@@ -4,6 +4,7 @@ html,body{
 
 }
 main{
+    /* It is good pracitse to add width and height to orignal page */
     width: 100%;
     height: 100%;
 }
