@@ -7,9 +7,11 @@
     /* background-color: rgba(255, 0, 0, 0.5); */
     /* background-color: hsl(0, 100%, 50%); */
     /* background-color: hsla(0, 100%, 50%, 0.5); */
-    color: white;
+
+    /* color: white; */
+    color: inherit; /* inherit the color from parent */
     border: 1px solid blue;
-    box-shadow: 30px 60px 70px 40px #00000040;
+    box-shadow: 30px 60px 70px 40px #ffffff40 inset; /* h-shadow v-shadow blur spread color inset(inside color) */
 
 
 }
