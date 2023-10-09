@@ -9,3 +9,7 @@ p {
     font-style: italic;
     font-size: 2em;
 }
+.count{
+    background-image: url(./mario.webp);
+    background-position: center;
+}
