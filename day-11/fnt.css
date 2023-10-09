@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('dance.ttf') format('truetype'); 
+}
+p {
+    font-family: 'MyFont', sans-serif;
+    font-size: 2em;
+}
