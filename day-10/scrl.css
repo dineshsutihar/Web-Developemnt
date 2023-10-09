@@ -6,4 +6,7 @@
     overflow: auto;  
     /* overflow: hidden; */
     /* overflow: visible;  */
+    /* overflow: inherit;  */
+    /* overflow-y: scroll; */
+    /* overflow-x: scroll; */
 }
