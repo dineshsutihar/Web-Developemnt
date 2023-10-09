@@ -1,0 +1,53 @@
+body,html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    border: 2px solid rebeccapurple;
+    
+}
+
+.static-box{
+    width: 10%;
+    height: 10%;
+    background-color: cadetblue;
+    position: static;
+}
+.relative-box{
+    width: 10%;
+    height: 10%;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    left: 30px;
+
+}
+
+.absolute-box{
+    width: 10%;
+    height: 10%;
+    background-color: darkmagenta;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.fixed-box{
+    width: 10%;
+    height: 10%;
+    background-color: palevioletred;
+    position: fixed;
+    top: 80px;
+    left: 80px;
+}
+.sticky-box{
+    width: 10%;
+    height: 10%;
+    background-color: rgb(251, 255, 8);
+    position: sticky;
+    top: 180px;
+    left: 180px;
+}
