@@ -48,6 +48,7 @@ body,html {
     height: 10%;
     background-color: rgb(251, 255, 8);
     position: sticky;
-    top: 180px;
-    left: 180px;
+    top: 0;
+    z-index: 100;
+
 }
