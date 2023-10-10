@@ -11,13 +11,13 @@ body,html {
 }
 
 .static-box{
-    width: 10%;
+    width: 15%;
     height: 10%;
     background-color: cadetblue;
     position: static;
 }
 .relative-box{
-    width: 10%;
+    width: 15%;
     height: 10%;
     background-color: brown;
     position: relative;
@@ -27,7 +27,7 @@ body,html {
 }
 
 .absolute-box{
-    width: 10%;
+    width: 15%;
     height: 10%;
     background-color: darkmagenta;
     position: absolute;
@@ -36,7 +36,7 @@ body,html {
 }
 
 .fixed-box{
-    width: 10%;
+    width: 15%;
     height: 10%;
     background-color: palevioletred;
     position: fixed;
@@ -44,7 +44,7 @@ body,html {
     left: 80px;
 }
 .sticky-box{
-    width: 10%;
+    width: 15%;
     height: 10%;
     background-color: rgb(251, 255, 8);
     position: sticky;
