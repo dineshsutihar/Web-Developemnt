@@ -1,0 +1,92 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <form method="post" id="survey-form">
+        <fieldset>
+          <label id="name-label">
+            Name:
+            <input
+              id="name"
+              type="text"
+              placeholder="Enter Your Full Name"
+              required
+            />
+          </label>
+          <label id="email-label">
+            Email:
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </label>
+          <label id="number-label"
+            >Number:
+            <input
+              id="number"
+              type="number"
+              min="10000000"
+              max="9999999999"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              placeholder="Enter Phone Number"
+            />
+          </label>
+        </fieldset>
+        <fieldset>
+          <label
+            >Which option best describes your current role?
+            <select id="dropdown">
+              <option>Student</option>
+              <option>Teacher</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          How much you liked my website?
+          <label
+            ><input type="radio" value="Very Much" name="rating" />Very
+            Much</label
+          >
+          <label><input type="radio" value="Good" name="rating" />Good</label>
+          <label><input type="radio" value="Worse" name="rating" />Worse</label>
+        </fieldset>
+
+        <fieldset>
+          What would you like to see improved?
+          <label>
+            <input type="checkbox" value="Front-end Projects" />
+            Front-end Projects
+          </label>
+          <label>
+            <input type="checkbox" value="Back-end Projects" />
+            Back-end Projects
+          </label>
+          <label>
+            <input type="checkbox" value=" Data Visualization" />
+            Data Visualization
+          </label>
+          <label>
+            <input value="Challenges" type="checkbox" />
+            Challenges
+          </label>
+        </fieldset>
+        <fieldset>
+          Any comments or suggestions?
+          <textarea rows="3" cols="30"></textarea>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </body>
+  </html>
+</DOCTYPE>
