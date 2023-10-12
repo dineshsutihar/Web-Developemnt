@@ -1,0 +1,33 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.box-1 {
+    flex-basis: 100px; /* It specifies the initial size of the flex item, before any available space is distributed according to the flex factors. */
+    flex-grow: 2; /* It specifies how much of the remaining space in the flex container should be assigned to the item (the flex grow factor). */
+    flex-shrink: 1; /* It specifies how the item will shrink relative to the rest of the flexible items inside the same container (the flex shrink factor). */
+    background-color: red;
+}
+
+.box-2 {
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    background-color: green;
+}
+
+.box-3 {
+    flex: 2 1 100px; /* flex-grow flex-shrink flex-basis  these 3 will work on width not on height*/
+    /* flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    background-color: blue;
+}
+
