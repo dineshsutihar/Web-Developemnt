@@ -1,0 +1,26 @@
+html,body {
+    width: 95vw;
+    height: 95vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.grid-container {
+    display: grid; /* display as grid */
+    grid-template-columns: auto auto auto; /* three columns */
+    gap: 8px; /* gap between grid items */
+    border: 1px solid;
+    justify-content: center; /* start grid items block axis */
+    align-items: center; /* center grid items */
+    align-content: center;
+    
+}
+.grid-item {
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
