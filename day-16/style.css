@@ -45,6 +45,39 @@ main{
     flex-direction: column;
 }
 
-.good-section{
-    
+.personal-info-form {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-area: 10px;
+}
+.row1{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.row2{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.row3{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.row4{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.row5{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.row6{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.row7{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.row8{
+    grid-template-columns: repeat(2,1fr);
 }
