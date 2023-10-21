@@ -2,18 +2,18 @@
     content:url(./party.png);;
 } */
 
-/* h1::after {
+h1::after {
     content: "🎉";
-} */
+}
 
-/* p::first-line {
+p::first-line {
     color: red;
-} */
+}
 
-/* p::first-letter {
-    color: red;
+p::first-letter {
+    color: green;
     font-size: 50px;
-} */
+}
 
 ::selection {
     background-color: #f00;
