@@ -1,0 +1,21 @@
+/* h1::before {
+    content:url(./party.png);;
+} */
+
+/* h1::after {
+    content: "🎉";
+} */
+
+/* p::first-line {
+    color: red;
+} */
+
+/* p::first-letter {
+    color: red;
+    font-size: 50px;
+} */
+
+::selection {
+    background-color: #f00;
+    color: #fff;
+}
