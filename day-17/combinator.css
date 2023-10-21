@@ -1,0 +1,23 @@
+/*Combinatores in CSS 3 */
+
+
+/* Descendant selector = All the p in div will be selected  */
+/* div p {
+    background-color: aqua;
+} */
+
+
+/* Child selector = Only the p in div will be selected */
+/* div > p {
+    background-color: aqua;
+} */
+
+/* Adjecent sibling selector = immediately preceded by another element */
+/* div + p {
+    background-color: aqua;
+} */
+
+/* General sibling selector = except div it will select all*/
+div ~ p {
+    background-color: aqua;
+}
