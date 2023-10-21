@@ -1,0 +1,38 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: 1s ease-in-out;
+}
+
+.box:hover {
+    background-color: red;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:link {
+    color: blue;
+}
+
+#nm:focus {
+    background-color: yellow;
+}
+
+input[type="checked"]:checked {
+    background-color: red;
+}
+
+
+
+/* Path: day-17/psudo.css */
