@@ -1,0 +1,19 @@
+/* p:first-child {
+    background-color: salmon;
+}
+
+p:last-child {
+    background-color: yellow;
+} */
+
+/* div:nth-child(3) {
+    background-color: green;
+} */
+
+p{
+    background-color: salmon;
+}
+
+:not(p) {
+    background-color: green;
+}
