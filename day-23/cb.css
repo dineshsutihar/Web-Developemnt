@@ -1,0 +1,40 @@
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 20%;
+    height: 20%;
+
+    background-color: cadetblue;
+
+    animation-name: slider;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+    from {
+        background-color: cadetblue;
+    }
+    to {
+        background-color: crimson;
+    }
+}
