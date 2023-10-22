@@ -1,0 +1,10 @@
+p {
+    color: red;
+}
+.col-text {
+    color: blue;
+}
+
+#pInfo {
+    color: green !important; /* !important is used to override the color of p tag */
+}
