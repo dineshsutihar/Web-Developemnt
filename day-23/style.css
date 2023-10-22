@@ -1,0 +1,42 @@
+ /* Define the styles for the box */
+ .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: move 2s infinite alternate;
+    transition: background-color 1s ease-in-out;
+}
+
+/* Define the animation */
+@keyframes move {
+    from {left: 0;}
+    to {left: 200px;}
+}
+
+/* Define the hover state */
+.box:hover {
+    background-color: blue;
+}
+
+/* Define the styles for the circle */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 2s infinite linear;
+    transition: transform 1s ease-in-out;
+}
+
+/* Define the animation */
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+/* Define the hover state */
+.circle:hover {
+    transform: scale(1.2);
+}
