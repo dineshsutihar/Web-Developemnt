@@ -16,3 +16,17 @@ body{
     margin: 30px auto 0px auto;
     padding: 10px;
 }
+#controls, #stats{
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
+    padding: 5px;
+        
+}
+
+#monsterStats{
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color:#ffffff;
+    background-color:  #c70d0d;
+}
