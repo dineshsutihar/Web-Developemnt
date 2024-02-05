@@ -20,7 +20,7 @@ buttom.addEventListener('click', () => {
 });
 
 function isPalindrome(text) {
-    const cleanedText = text.replace(/\W/g, '').toLowerCase(); // remove all non-alphanumeric characters here W is for non-alphanumeric characters
+    const cleanedText = text.replace(/[\W_]/g, '').toLowerCase(); // remove all non-alphanumeric characters and underscores
     const reversedText = cleanedText.split('').reverse().join('');
     return cleanedText === reversedText;
 }
