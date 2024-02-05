@@ -15,7 +15,7 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 40%;
+    width: 420px;
 
 }
 
@@ -47,6 +47,7 @@ h1 {
     border: none;
     border-bottom:3px solid #5A01A7;
     height: 30px;
+    font-size: 1.1rem;
 }
 
 #content button{
