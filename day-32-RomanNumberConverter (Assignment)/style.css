@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #1B1B32;
+  color: white;
+  font-size: 1.7rem; 
+
+}
+main{
+  /* border: 1px solid white;  */
+  width: 500px;
+  margin: 0 auto;
+  /* height: 400px */
+}
+
+h1{
+  font-size: 2.7rem;
+  text-align: center; 
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+#Form{
+  display: flex;
+  flex-direction: column;
+  text-align : center; 
+  border: 2px solid white;
+  height: 200px;
+  padding: 40px;
+  background-color: #3B3B4F;
+
+}
+
+label{
+  margin-bottom: 10px;
+}
+
+input, button{
+  height: 50px;
+  margin: 15px ;
+  padding: 10px;
+}
+
+#output{
+  border: 2px solid;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+  display: none;
+  height:max-content;
+  
+}
+#number{
+  color: white;
+  background: #0A0A23;
+  border: 1px solid white; 
+  font-size: 1.7rem; 
+}
+
+#convert-btn{
+  background: #FEBF42;
+  border: 1px solid #FEAC32;
+  font-size: 1.7rem;
+}
+
+
+
